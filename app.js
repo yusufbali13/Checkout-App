@@ -5,19 +5,14 @@ const productsQuantity = document.getElementById("span");
 const cartShipping = document.getElementById("cart-shipping");
 const cartTax = document.getElementById("cart-tax");
 const cartTotal = document.getElementById("cart-total");
-
+const navListBtn = document.getElementsByClassName("nav__list--btn");
 const deleteBtn = document.querySelector(".delete");
 const deleteAll = document.querySelector("#delete-all");
 const card = document.querySelector("#product-painel");
 const mainPoductPrice = document.querySelector("#main-price");
 
-deleteBtn.addEventListener("click", () => {
-  card.remove();
-});
-
-deleteAll.addEventListener("click", () => {
-  card.remove();
-});
+//*********Delete All kısmı */
+navListBtn.ad;
 
 //**********TOTAL************/
 
