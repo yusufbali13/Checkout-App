@@ -10,7 +10,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
+      referrerpolicy="no-referrer"
+    />
     <title>Checkout</title>
   </head>
   <body>
@@ -21,7 +22,7 @@
       <ul class="nav__list">
         <li class="nav__list--text">My Cart <span>(3 Products)</span></li>
         <li class="nav__list--btn">
-          Delete Products <i class="fa-regular fa-trash-can"></i>
+          <span>Delete Products</span> <i class="fa-solid fa-trash-can"></i>
         </li>
       </ul>
     </nav>
@@ -37,19 +38,25 @@
               <h2 class="main__product-info--title">Macbook M2 Air</h2>
               <div class="main__product-price">
                 <p class="main__product-price--text">
-                  <strong class="dollar">1474.99</strong> <span class="line-through dollar">1694.99</span>
+                  <strong class="dollar">1474.99</strong>
+                  <span class="line-through dollar">1694.99</span>
                 </p>
               </div>
               <div class="main__action">
                 <div class="main__action--btn">
                   <div class="main__quantity-controller">
                     <i class="fa-solid fa-minus"></i>
-                    <p class="main__quantity-controller--text" id="quantity">1</p>
+                    <p class="main__quantity-controller--text" id="quantity">
+                      1
+                    </p>
                     <i class="fa-solid fa-plus"></i>
                   </div>
                   <div class="main__product-removal">
                     <button class="main__product-removal--btn">
-                      <i class="fa-regular fa-trash-can" id="remove-product"></i>
+                      <i
+                        class="fa-regular fa-trash-can"
+                        id="remove-product"
+                      ></i>
                     </button>
                   </div>
                 </div>
@@ -65,19 +72,25 @@
               <h2 class="main__product-info--title">Apple Keyboard</h2>
               <div class="main__product-price">
                 <p class="main__product-price--text">
-                  <strong class="dollar">185.99</strong> <span class="line-through dollar">199.99</span>
+                  <strong class="dollar">185.99</strong>
+                  <span class="line-through dollar">199.99</span>
                 </p>
               </div>
               <div class="main__action">
                 <div class="main__action--btn">
                   <div class="main__quantity-controller">
                     <i class="fa-solid fa-minus"></i>
-                    <p class="main__quantity-controller--text" id="quantity">1</p>
+                    <p class="main__quantity-controller--text" id="quantity">
+                      1
+                    </p>
                     <i class="fa-solid fa-plus"></i>
                   </div>
                   <div class="main__product-removal">
                     <button class="main__product-removal--btn">
-                      <i class="fa-regular fa-trash-can" id="remove-product"></i>
+                      <i
+                        class="fa-regular fa-trash-can"
+                        id="remove-product"
+                      ></i>
                     </button>
                   </div>
                 </div>
@@ -93,19 +106,25 @@
               <h2 class="main__product-info--title">Apple Mouse</h2>
               <div class="main__product-price">
                 <p class="main__product-price--text">
-                  <strong class="dollar">89.99</strong> <span class="line-through dollar">99.99</span>
+                  <strong class="dollar">89.99</strong>
+                  <span class="line-through dollar">99.99</span>
                 </p>
               </div>
               <div class="main__action">
                 <div class="main__action--btn">
                   <div class="main__quantity-controller">
                     <i class="fa-solid fa-minus"></i>
-                    <p class="main__quantity-controller--text" id="quantity">1</p>
+                    <p class="main__quantity-controller--text" id="quantity">
+                      1
+                    </p>
                     <i class="fa-solid fa-plus"></i>
                   </div>
                   <div class="main__product-removal">
                     <button class="main__product-removal--btn">
-                      <i class="fa-regular fa-trash-can" id="remove-product"></i>
+                      <i
+                        class="fa-regular fa-trash-can"
+                        id="remove-product"
+                      ></i>
                     </button>
                   </div>
                 </div>
@@ -117,28 +136,28 @@
       </div>
       <div class="main__total">
         <div class="main__summary">
-        <div class="main__summary--responsive">
-          <div>
-          <h4 class="main__sum-title">SELECTED PRODUCTS</h4>
-        <h2 class="main__sum-price dollar">1.099,97</h2>
-        </div>
-          <button class="main__order-btn">Finish Order</button>
-        </div>
-        <div id="total-info">
-          <div class="main__summary--info" id="cart-shipping">
-            <span>Shipping</span>
-            <span class="dollar">25,99</span>
+          <div class="main__summary--responsive">
+            <div>
+              <h4 class="main__sum-title">SELECTED PRODUCTS</h4>
+              <h2 class="main__sum-price dollar">1.099,97</h2>
+            </div>
+            <button class="main__order-btn">Finish Order</button>
           </div>
-          <div class="main__summary--info" id="cart-tax">
-            <span>Tax %18</span>
-            <span class="dollar">57</span>
-          </div>
-          <div class="main__summary--info" id="cart-total">
-            <span>Total</span>
-            <span class="dollar">1250</span>
+          <div id="total-info">
+            <div class="main__summary--info" id="cart-shipping">
+              <span>Shipping</span>
+              <span class="dollar">25,99</span>
+            </div>
+            <div class="main__summary--info" id="cart-tax">
+              <span>Tax %18</span>
+              <span class="dollar">57</span>
+            </div>
+            <div class="main__summary--info" id="cart-total">
+              <span>Total</span>
+              <span class="dollar">1250</span>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </main>
 

@@ -43,9 +43,16 @@ body {
 }
 .nav__list--btn {
   color: orangered;
-  font-size: 14px;
+  font-size: 17px;
   cursor: pointer;
 }
+
+.nav__list--btn span:hover {
+  transform: scale(1.5);
+  transition: all 2s;
+  color: red;
+}
+
 .main {
   width: 100%;
   display: flex;
@@ -168,7 +175,7 @@ body {
 
   border-radius: 0.5rem;
 }
-.main__summary--responsive{
+.main__summary--responsive {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
