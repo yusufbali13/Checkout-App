@@ -47,10 +47,16 @@ body {
   cursor: pointer;
 }
 
-.nav__list--btn span:hover {
+#delete-all:hover {
   transform: scale(1.5);
-  transition: all 2s;
+  transition: all 0.5s;
   color: red;
+}
+nav ul .nav__list--btn span:hover {
+  color: red;
+  font-size: larger;
+  font-weight: bold;
+  transition: all 1s;
 }
 
 .main {
