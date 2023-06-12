@@ -15,7 +15,7 @@ body {
   align-items: center;
   padding: 0.8rem 1rem;
   background-color: white;
-  color: orangered;
+  color: rgb(160, 71, 39);
   border-bottom: 1px solid #cecdcd;
 }
 .header__title {
@@ -42,7 +42,7 @@ body {
   color: #9b9b9b;
 }
 .nav__list--btn {
-  color: orangered;
+  color: rgb(160, 71, 39);
   font-size: 17px;
   cursor: pointer;
 }
@@ -50,10 +50,10 @@ body {
 #delete-all:hover {
   transform: scale(1.5);
   transition: all 0.5s;
-  color: red;
+  color: rgb(160, 71, 39);
 }
 nav ul .nav__list--btn span:hover {
-  color: red;
+  color: rgb(160, 71, 39);
   font-size: larger;
   font-weight: bold;
   transition: all 1s;
@@ -118,7 +118,7 @@ nav ul .nav__list--btn span:hover {
   margin: 5px 0;
 }
 .main__product-price--text strong {
-  color: #f2994a;
+  color: rgb(160, 71, 39);
   font-size: 16px;
   font-weight: 600;
 }
@@ -158,7 +158,7 @@ nav ul .nav__list--btn span:hover {
 .main__product-removal--btn i:hover {
   color: white;
   border-radius: 50%;
-  background-color: #ff7623;
+  background-color: rgb(160, 71, 39);
 }
 
 .main__product-line-price {
@@ -192,13 +192,13 @@ nav ul .nav__list--btn span:hover {
   padding-bottom: 0.5rem;
 }
 .main__sum-title {
-  color: orangered;
+  color: rgb(160, 71, 39);
   text-align: center;
   padding-bottom: 0.5rem;
 }
 
 .main__order-btn {
-  background-color: orangered;
+  background-color: rgb(160, 71, 39);
   border: none;
   width: 80%;
   height: 40px;
@@ -218,7 +218,7 @@ nav ul .nav__list--btn span:hover {
   text-decoration: line-through;
 }
 i {
-  color: #ff7623;
+  color: rgb(160, 71, 39);
   padding: 0.5rem;
   cursor: pointer;
 }
