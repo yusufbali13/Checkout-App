@@ -1,41 +1,19 @@
-const quantity = document.getElementsByClassName(
-  "main__quantity-controller--text"
-);
-const productsQuantity = document.getElementById("span");
-const cartShipping = document.getElementById("cart-shipping");
-const cartTax = document.getElementById("cart-tax");
-const cartTotal = document.getElementById("cart-total");
-const navListBtn = document.getElementsByClassName("nav__list--btn");
-const deleteBtn = document.querySelector(".delete");
-const deleteAll = document.querySelector("#delete-all");
-const card = document.querySelector("#product-painel");
-const mainPoductPrice = document.querySelector("#main-price");
+//********SELECTOR */
 
-//*********Delete All kısmı */
-navListBtn.ad;
+const main = document.getElementById("products-preview");
+const nav = document.querySelector("nav");
 
-//**********TOTAL************/
+const amountofProducts = document.getElementById("span");
 
-const shipping = () => {
-  if (Number(sumSelectedPrice.textContent) > 3000) {
-    cartShipping.textContent = 0;
-  } else {
-    cartShipping.textContent = 25.99;
-  }
-};
+const selectedProducts = document.querySelector(".main__sum-price");
 
-const tax = () => {
-  cartTax.textContent = Number(
-    (Number(sumSelectedPrice.textContent) * 0.18).toFixed(2)
-  );
-};
+const shipping = document
+  .getElementById("cart-shipping")
+  .querySelector(".dollar");
+const tax = document.getElementById("cart-tax").querySelector(".dollar");
+const total = document.getElementById("cart-total").querySelector(".dollar");
 
-const total = () => {
-  cartTotal.textContent = Number(
-    (
-      Number(sumSelectedPrice.textContent) +
-      Number(cartShipping.textContent) +
-      Number(cartTax.textContent)
-    ).toFixed(2)
-  );
-};
+//********EVENTS */
+window.addEventListener("load", (e) => {
+  selectedProducts;
+});
