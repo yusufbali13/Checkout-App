@@ -202,6 +202,11 @@ body {
   cursor: pointer;
   text-align: center;
 }
+
+.main__order-btn:hover {
+  background-color: rgb(137, 87, 68);
+}
+
 .main__summary--info {
   display: flex;
   justify-content: space-between;
