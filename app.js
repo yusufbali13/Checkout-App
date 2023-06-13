@@ -7,6 +7,8 @@ const amountOfProducts = document.querySelector(".amount-of-product");
 
 const selectedProducts = document.querySelector(".main__sum-price");
 
+const mainTitle = document.querySelector(".main__title");
+
 const shipping = document
   .getElementById("cart-shipping")
   .querySelector(".dollar");
@@ -15,9 +17,10 @@ const total = document.getElementById("cart-total").querySelector(".dollar");
 
 // ******** events
 
-window.addEventListener("load", (e) => {
+window.addEventListener("load", () => {
   selectedProducts.innerHTML = updateAmount();
   finishOreder();
+  mainTitle.remove();
 });
 
 main.addEventListener("click", (e) => {
@@ -62,6 +65,9 @@ nav.addEventListener("click", (e) => {
       selectedProducts.innerText = updateAmount();
       finishOreder();
       amountOfProducts.innerText--;
+    }
+    if (confirm("Are you sure you want to delete all???") == true) {
+      e.target.closest(".main__product").remove();
     }
   }
 });
